@@ -19,12 +19,12 @@ class Empleado extends Model
     	'id_turno'
     ];
 
-    public function departamento()
+    public function Departamento()
     {
     	return $this->belongsTo('App\Departamento');
     }
 
-    public function departamento()
+    public function Departamento()
     {
     	return $this->belongsTo('App\Turno');
     }

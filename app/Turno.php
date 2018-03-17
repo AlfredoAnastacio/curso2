@@ -14,9 +14,5 @@ class Turno extends Model
     {
     	return $this->hasMany('App\Empleado', 'id_turno', 'id');
     }
-
-    /*public function setDescripcionAttribute($value)
-    {
-    	$this->attributes['descripcion'] = mb_strtoupper($value, 'utf-8');
-    }*/
 }
+
